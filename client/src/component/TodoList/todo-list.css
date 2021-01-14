@@ -1,0 +1,110 @@
+.todo {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: -16px;
+    padding-top: 30px;
+}
+
+.todo-main {
+    width: 700px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-header .check-all {
+    width: 15px;
+    height: 10px;
+    background: url("../../img/all.png") no-repeat;
+    display: flex;
+    background-size: cover;
+}
+
+.list-footer {
+    display: flex;
+}
+
+.list-footer>Button {
+    margin-left: 20px;
+}
+
+.total-active {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.f-s-24 {
+    font-size: 24px!important;
+}
+
+.ant-input-search-button {
+    height: 31px;
+}
+
+.todo-main .ant-list-item {
+    padding: 10px 24px;
+}
+
+.todo-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item .checkbox {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #d1d1d1;
+    margin: 0 10px 0 5px;
+    cursor: pointer;
+}
+
+.todo-item .checkbox-done {
+    display: flex;
+    background: url("../../img/check-done-2.png") no-repeat;
+    background-size: cover;
+    border: 1px solid #00a832;
+}
+
+.todo-item .title {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.todo-item .title-done {
+    text-decoration: line-through;
+    color: #d1d1d1;
+}
+
+.todo-main .btn-del {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.todo-main .icon-del {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.todo-main .icon-del:hover,
+.todo-main .icon-del:focus {
+    background-color: #fceeee;
+    border-radius: 50%;
+}

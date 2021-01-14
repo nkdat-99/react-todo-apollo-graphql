@@ -1,0 +1,63 @@
+.app {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* .sidebar {
+    height: 100vh;
+    width: 270px;
+    float: left;
+    background-color: rgb(255, 235, 204);
+    box-shadow: 0px 0px 10px 2px #cccccc;
+}
+
+.avatar {
+    display: flex;
+    background: url("/src/img/user-img-background.jpg") no-repeat;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+.name-user {
+    color: #fff;
+    align-self: center;
+}
+
+.menu {
+    height: (100vh - 100px);
+}
+
+.menu .item {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+}
+
+.menu .title-menu:hover {
+    background-color: navajowhite;
+}
+
+.menu .title-menu {
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 246, 233);
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.body {
+    height: 100vh;
+    width: calc(100% - 270px);
+    background-color: #f0f0f0;
+    position: absolute;
+    z-index: -2;
+    left: 270px;
+} */

@@ -1,0 +1,10 @@
+.footer-modal {
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit {
+    margin-left: 10px;
+}
